@@ -6,20 +6,19 @@ div {
     background-image: url(../../exercises-html-css/jojo-pose-cp2077.png);
     background-size: cover;
     background-repeat: no-repeat;
-    display: inline-block;
 
 }
 
 img {
     border: 10px groove orangered;
         border-radius: 5px;
+        padding: 50px;
 
 }
 
 .onedog {
     border: 10px groove purple;
     border-radius: 5px;
-    display: none;
 }
 
 .twodog {
