@@ -1,0 +1,14 @@
+div{
+    width: 400px;
+    height: 200px;
+    border: 40px dashed red;
+    margin: 20px auto;
+    /* TRBL - 1 value/ TB RL - 2 values/ T R B L - 4 Values */
+    background-image: url(../../exercises-html-css/puppy.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bsbb{
+    box-sizing: border-box;
+}
