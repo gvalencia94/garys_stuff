@@ -1,0 +1,32 @@
+div {
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    border-radius: 100%;
+    background-image: url(../../exercises-html-css/jojo-pose-cp2077.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+img {
+    border: 10px groove orangered;
+        border-radius: 5px;
+
+}
+
+.onedog {
+    border: 10px groove purple;
+    border-radius: 5px;
+}
+
+.twodog {
+    border: 10px groove blue;
+        border-radius: 5px;
+}
+
+.threedog {
+    border: 10px groove greenyellow;
+        border-radius: 5px;
+}
+
