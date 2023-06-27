@@ -1,0 +1,21 @@
+body{
+    font-size: 50px;
+    text-align: center;
+    border: 10px solid burlywood;
+}
+
+a:link {
+    color: blue
+}
+
+a:visited {
+    color: blueviolet;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: cornflowerblue;
+}

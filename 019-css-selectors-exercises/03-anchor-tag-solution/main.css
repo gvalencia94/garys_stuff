@@ -1,0 +1,9 @@
+[target=_blank]{
+    border: 5px solid;
+    border-color: red;
+}
+
+body{
+    font-size: 36px;
+    text-align: center;
+}
