@@ -1,0 +1,12 @@
+.false{
+    text-decoration:line-through ;
+    font-size: 2rem;
+}
+
+.true{
+    font-style: italic;
+    font-weight: 800;
+    font-size: 4rem;
+    color: red;
+    text-shadow: 4px 4px 2px orange;
+}
