@@ -1,0 +1,22 @@
+html{
+    font-size: 2rem;
+}
+
+ul{
+    border: 5px solid black;
+    max-width: fit-content;
+}
+
+li{
+    display: inline-block;
+    margin: 5px 50px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: cornflowerblue;
+}
+
