@@ -1,0 +1,29 @@
+header, footer{
+    height: 20px;
+    width: 100%;
+    border-radius: 4px;
+    background-color: sandybrown;
+}
+
+aside{
+    float: left;
+    height: 100px;
+    width: 24%;
+    margin: 10px 0;
+    border-radius: 4px;
+    background-color: cornflowerblue;
+}
+
+section{
+    height: 100px;
+    float: right;
+    width: 75%;
+    margin: 10px 0;
+    border-radius: 4px;
+    background-color: lightslategray;
+}
+
+footer{
+    clear: both;
+    background-color: steelblue;
+}

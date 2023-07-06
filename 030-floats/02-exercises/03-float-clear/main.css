@@ -1,0 +1,13 @@
+div{
+    border: 4px solid black;
+    overflow: auto;
+}
+
+img{
+    float: left;
+    margin: 10px;
+}
+
+p{
+    clear: left;
+}
