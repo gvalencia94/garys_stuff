@@ -1,0 +1,19 @@
+header{
+    background-color: coral;
+}
+
+article{
+    background-color: deepskyblue;
+}
+
+aside{
+    background-color: gold;
+}
+
+.right{
+    background-color: hotpink;
+}
+
+footer{
+    background-color: palegreen;
+}

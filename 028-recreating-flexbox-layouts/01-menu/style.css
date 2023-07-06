@@ -1,0 +1,22 @@
+ul{
+    list-style: none;
+    background-color: deepskyblue;
+}
+
+a{
+    text-decoration: none;
+    padding: 20px 0;
+    color: white;
+    text-align: center;
+    border-top: 1px solid skyblue;
+    border-bottom: 1px solid dodgerblue;
+}
+
+a:hover{
+    background: royalblue;
+}
+
+a:last-child{
+    border-bottom: none;
+}
+
