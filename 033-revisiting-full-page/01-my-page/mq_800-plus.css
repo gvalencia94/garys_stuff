@@ -1,6 +1,11 @@
 body{
     background-image: url(../00-pictures/background-photo.jpg);
 }
+header nav{
+    display: flex;
+    justify-content: space-between;
+
+}
 #idx>div{
     height: 18vh;
 }
@@ -16,6 +21,18 @@ h3{
     margin: .5rem 1rem;
     text-align: center;
     font-size: 1.2rem;
-    border: 1px solid red;
     align-items: center;
+    justify-content: space-between;
+}
+a:hover, .fa-house:hover, .fa-pencil:hover,.fa-gear:hover,.fa-briefcase:hover{
+    color: rgb(18, 211, 147);
+}
+a:active, .fa-house:active, .fa-pencil:active,.fa-gear:active,.fa-briefcase:active{
+    color: rgb(29, 157, 231);
+}
+header i{
+    color: inherit;
+}
+#mobile-menu{
+    display: none;
 }

@@ -24,6 +24,9 @@ header{
     width: 100%;
     background-color: rgba(0, 0, 0, .65);
 }
+header nav, header i{
+    display: none;
+}
 .logo, nav{
     display: flex;
     height: 80%;
@@ -31,8 +34,11 @@ header{
     margin: 1rem;
     text-align: center;
     font-size: .8rem;
-    justify-content: space-between;
-    border: 1px solid hotpink;
+    justify-content: center;
+}
+.logo{
+    width: 100%;
+    justify-content: center;
 }
 #idx{
     height: 100vh;
@@ -91,4 +97,32 @@ a:hover, .fa-house:hover, .fa-pencil:hover,.fa-gear:hover,.fa-briefcase:hover{
 }
 a:active, .fa-house:active, .fa-pencil:active,.fa-gear:active,.fa-briefcase:active{
     color: rgb(29, 157, 231);
+}
+header i{
+    color: transparent
+}
+#mobile-menu{
+    display: flex;
+    flex-flow: column nowrap;
+    box-sizing: border-box;
+    width: 100%;
+    height: 20%;
+    margin: 0;
+    color: inherit;
+}
+#mobile-menu a{
+    width: 100%;
+    height: 25%;
+    text-align: start;
+    align-items: center;
+    padding: 15px 20px;
+    border-bottom: 2px solid rgba(0, 0, 0, .1);
+    border-top: 2px solid rgba(255, 255, 255, .6);
+    background-color: rgb(48, 144, 204);
+}
+#mobile-menu a:hover{
+    background-color: royalblue;
+}
+footer nav a i{
+    padding-right: 1rem;
 }
