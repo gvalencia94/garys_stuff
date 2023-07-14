@@ -1,0 +1,28 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../pictures/castle.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    margin: 0 auto;
+}
+figure{
+    position: relative;
+    top: -200px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: x-large;
+    font-weight: 700;
+    font-style: italic;
+    color: rgb(245, 241, 20);
+    text-shadow: 2px 2px 4px black;
+}
+img{
+    border: 10px groove goldenrod;
+    position:fixed;
+    bottom: 50px;
+    height: 500px;
+}

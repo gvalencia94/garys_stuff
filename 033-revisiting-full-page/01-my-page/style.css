@@ -1,0 +1,94 @@
+html, button{
+    font-family: 'Cantarell', serif;
+    text-transform: uppercase;
+    color: rgb(235, 230, 230);
+}
+body{
+    height: 100vh;
+    background-image: url(../00-pictures/background-photo-mobile-devices.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+/* fixed header */
+header{
+    position: fixed;
+    /* top and left are default at 0 and not necessary */
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    /* formatting */
+    height: 2.8rem;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .65);
+}
+.logo, nav{
+    display: flex;
+    height: 80%;
+    width: 200px;
+    margin: 1rem;
+    text-align: center;
+    font-size: .8rem;
+    justify-content: space-between;
+    border: 1px solid hotpink;
+}
+#idx{
+    height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    box-sizing: border-box;
+}
+#idx>div{
+    height: 90vh;
+}
+#idx{
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+
+}
+.idx-center{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.idx-subcenter{
+    padding: 20px;
+}
+
+h1{
+    font-size: 1.6rem;
+}
+h2, button{
+    font-weight: 600;
+}
+h2, h3, button{
+    font-size: 1.2rem;
+}
+h3{
+    margin-top: .8rem;
+    line-height: 1.2;
+}
+button{
+    border: 2px solid rgb(202, 250, 234);
+    color: rgb(202, 250, 234);
+    border-radius: 5px;
+    padding: 5px;
+}
+button:hover{
+    background-color: black;
+}
+button:active{
+    color: rgb(29, 157, 231);
+    border: 2px solid rgb(29, 157, 231);
+}
+a:hover, .fa-house:hover, .fa-pencil:hover,.fa-gear:hover,.fa-briefcase:hover{
+    color: rgb(18, 211, 147);
+}
+a:active, .fa-house:active, .fa-pencil:active,.fa-gear:active,.fa-briefcase:active{
+    color: rgb(29, 157, 231);
+}
