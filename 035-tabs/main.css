@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    font-size: 2vw;
+    padding: 0;
+    /* box-sizing: border-box; */
+    /* Had to comment out because it would slighly smush text,
+    probably needs transition to look good */
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+header{
+    display: flex;
+    position: fixed;
+    width: 80%;
+    height: 2rem;
+    color: whitesmoke;
+    /* background-color: darkslategray; */
+    /* I don't think justify-content has any effect when they take all their parent container space evenly */
+    /* justify-content: space-around; */
+    /* Had no effect on TEXT, only div containers NOT their content */
+    /* align-items: center; */
+
+}
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    height: 100%;
+    text-align: center;
+    color: white;
+    background-color: darkslategray;
+    border: 0;
+    border-bottom: 4px solid transparent;
+    -webkit-text-stroke: 1px black;
+    /* DEBUGGING */
+    /* border: 1px solid coral; */
+}
+
+button:hover{
+    border-bottom: 4px solid cornflowerblue;
+}
