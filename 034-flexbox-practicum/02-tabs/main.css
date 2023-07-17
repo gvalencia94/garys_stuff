@@ -2,9 +2,9 @@
     margin: 0;
     font-size: 2vw;
     padding: 0;
+    /* unsure if box sizing does anything */
     /* box-sizing: border-box; */
-    /* Had to comment out because it would slighly smush text,
-    probably needs transition to look good */
+    
 }
 
 body{
@@ -34,7 +34,9 @@ button{
     text-align: center;
     color: white;
     background-color: darkslategray;
+    /* Gets rid of borders that are default with <button> */
     border: 0;
+    /* holds space so that button:hover does not make text within button jump */
     border-bottom: 4px solid transparent;
     -webkit-text-stroke: 1px black;
     /* DEBUGGING */

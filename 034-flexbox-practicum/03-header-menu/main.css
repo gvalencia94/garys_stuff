@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+}
+header{
+    position: fixed;
+    top: 0;
+    height: 3rem;
+    width: 100%;
+    background-color: gray;
+    font-size: 1.2rem;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: lightgray;
+}
+.fa-inbox{
+    padding: 0 20px;
+}
+a, #logo{
+    padding: 10px 1rem;
+    text-decoration: none;
+    color: rgb(231, 229, 229);
+    margin-top: 2px;
+}
+a:last-child{
+    margin-left: auto;
+    padding-right: 2rem;
+}
+#bgimage{
+    color: rgba(238, 103, 243, 0.4);
+    font-size: 20rem;
+}
+span{
+    color: rgba(119, 136, 151, .4);
+    font-size: 6rem;
+}
+a:hover, #logo:hover{
+    color: white;
+    background-color: rgb(87, 98, 110);
+    border-radius: 2rem;
+}
