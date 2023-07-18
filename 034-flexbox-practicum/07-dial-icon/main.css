@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    position: relative;
+    bottom: 5rem;
+    border: 1px solid gray;
+    width: fit-content;
+    border-radius: 100%;
+    cursor: pointer;
+    box-shadow: 2px 2px 3px rgb(99, 96, 96);
+    margin-bottom: 3rem;
+}
+i{
+    font-size: 3rem;
+    padding: 2rem;
+    color: gray;
+}
+div:hover{
+    border: 1px solid green;
+    transition: all 400ms;
+}
+i:hover{
+    color: green;
+    transition: all 400ms;
+}
+

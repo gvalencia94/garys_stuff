@@ -1,0 +1,65 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Lugrasimo', cursive;
+    color: lightslategray;
+}
+.fa-hat-wizard{
+    font-size: 10rem;
+    margin-bottom: 2rem;
+}
+
+h1{
+    font-size: 5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+h2{
+    font-size: 2rem;
+    text-align: center;
+    margin: 0;
+}
+button{
+    margin-top: 3rem;
+    padding: 1rem 5rem;
+    font-size: 2rem;
+    font-family: 'Lugrasimo', cursive;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    border-radius: 15px;
+    cursor: pointer;
+}
+button:hover{
+    color: darkblue;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 2s ease infinite;
+    transition: all 800ms;
+}
+/* debugging */
+/* i, h1, h2, button, div{
+    border: 1px dotted blue;
+} */
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
